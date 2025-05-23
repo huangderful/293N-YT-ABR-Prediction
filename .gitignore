@@ -1,4 +1,6 @@
 requet_trustee_venv/
 /test_data*/
-/RequetDataSet/
+/RequetDataSet/*
 /test/
+/puffer_tests/*
+/ABR_Separated/*
