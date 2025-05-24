@@ -2,3 +2,4 @@ requet_trustee_venv/
 /test_data*/
 /RequetDataSet/
 /test/
+.ipynb_checkpoints/
