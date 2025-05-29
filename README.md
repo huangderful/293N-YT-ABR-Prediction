@@ -14,5 +14,5 @@ All code runs for this date:
 https://puffer.stanford.edu/results/2019-01-26/
 
 2. Run expt_split
-3. Now you can run either the aqua or trustee pipelines
+3. Now you can run the COMPLETE_PIPELINE.ipynb for both TRUSTEE and AQUA reports
 
