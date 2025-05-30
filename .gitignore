@@ -3,6 +3,7 @@ requet_trustee_venv/
 /RequetDataSet/*
 /test/
 /puffer_tests/*
+!/puffer_tests/.gitkeep
 /ABR_Separated/*
 .DS_Store
 .ipynb_checkpoints/
