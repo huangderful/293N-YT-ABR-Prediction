@@ -1,18 +1,23 @@
 # 293N-YT-ABR-Prediction
-1. setup a venv and install requirements.txt (I used python 3.12.10)
-2. Run preprocess.py ==> Creates csvs from the Requet DataSet which is taken from https://github.com/gao-keyong/requet/
-- The RequetDataSet folder is the same as the repo and you need to clone this into your branch cuz i gitignored it: https://github.com/Wimnet/RequetDataSet
+This repository trains models on adaptive bitrate (ABR) decisions using the Requet and Puffer Dataset and interprets model behavior using Trustee and AQUA.
 
-3. Run the jupyter notebook `requet_trustee_pipeline.ipynb` which trains an RF and uses trustee https://github.com/TrusteeML/trustee
+## Setup
+Create a virtual environment and install requirements.txt (**Python 3.11.11** is recommended).
+```
+pip install -r requirements.txt
+```
+
+## Running the Requet Pipeline
+1. Run `preprocess.py` to create CSV files from the Requet data set.
+
+2. Run `requet_trustee_pipeline.ipynb` to train a Random Forest model and generate Trustee and Aqua explanations.
 
 
----
-To run the pipeline
-1. Go on puffer and download video sent, client buffer, and ssim csvs (not all days require client buffer but my code assumes it is needed)
+## Running the Puffer Pipeline
+1. Download the [Puffer data](https://puffer.stanford.edu/results/2019-01-26/)
 
-All code runs for this date:
-https://puffer.stanford.edu/results/2019-01-26/
+2. Place the downloaded CSV files into the `/puffer_tests` directory.
 
-2. Run expt_split
-3. Now you can run the COMPLETE_PIPELINE.ipynb for both TRUSTEE and AQUA reports
+3. Run the `expt_split.ipynb` notebook to preprocess and split the data.
 
+4. Run `COMPLETE_PIPELINE.ipynb` to train models and generate the TRUSTEE and AQUA reports.
