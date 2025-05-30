@@ -4,3 +4,5 @@ requet_trustee_venv/
 /test/
 /puffer_tests/*
 /ABR_Separated/*
+.DS_Store
+.ipynb_checkpoints/
