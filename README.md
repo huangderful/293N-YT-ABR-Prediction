@@ -8,13 +8,15 @@ pip install -r requirements.txt
 ```
 
 ## Running the Requet Pipeline
-1. Run `preprocess.py` to create CSV files from the Requet data set.
+1. Clone the [RequetDataSet](https://github.com/Wimnet/RequetDataSet) repository.
 
-2. Run `requet_trustee_pipeline.ipynb` to train a Random Forest model and generate Trustee and Aqua explanations.
+2. Run `preprocess.py` to create CSV files from the Requet data set.
+
+3. Run `requet_trustee_pipeline.ipynb` to train a Random Forest model and generate Trustee and Aqua explanations.
 
 
 ## Running the Puffer Pipeline
-1. Download the [Puffer data](https://puffer.stanford.edu/results/2019-01-26/)
+1. Download the [Puffer data](https://puffer.stanford.edu/results/2019-01-26/) for video_sent and client_buffer.
 
 2. Place the downloaded CSV files into the `/puffer_tests` directory.
 
