@@ -9,3 +9,4 @@ requet_trustee_venv/
 /out/
 .DS_Store
 .ipynb_checkpoints/
+downsampled_format_data.csv
