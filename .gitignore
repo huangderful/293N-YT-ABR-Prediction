@@ -3,6 +3,13 @@ requet_trustee_venv/
 /RequetDataSet/*
 /test/
 /puffer_tests/*
+!/puffer_tests/client_buffer/
+!/puffer_tests/video_sent/
+/puffer_tests/client_buffer/*
+!/puffer_tests/client_buffer/.gitkeep
+/puffer_tests/video_sent/*
+!/puffer_tests/video_sent/.gitkeep
+
 !/puffer_tests/.gitkeep
 /ABR_Separated/*
 /RequetDataSet/
