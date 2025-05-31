@@ -1,4 +1,11 @@
 requet_trustee_venv/
 /test_data*/
-/RequetDataSet/
+/RequetDataSet/*
 /test/
+/puffer_tests/*
+!/puffer_tests/.gitkeep
+/ABR_Separated/*
+/RequetDataSet/
+/out/
+.DS_Store
+.ipynb_checkpoints/
