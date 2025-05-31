@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 2. Run `preprocess.py` to create CSV files from the Requet data set.
 
-3. Run `requet_trustee_pipeline.ipynb` to train a Random Forest model and generate Trustee and Aqua explanations.
+3. Run `requet_pipeline.ipynb` to train a Random Forest model and generate Trustee and Aqua explanations.
 
 
 ## Running the Puffer Pipeline
@@ -22,4 +22,4 @@ pip install -r requirements.txt
 
 3. Run the `expt_split.ipynb` notebook to preprocess and split the data.
 
-4. Run `COMPLETE_PIPELINE.ipynb` to train models and generate the TRUSTEE and AQUA reports.
+4. Run `puffer_pipeline.ipynb` to train models and generate the TRUSTEE and AQUA reports.
