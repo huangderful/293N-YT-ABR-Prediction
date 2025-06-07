@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 
 ## Running the Puffer Pipeline
-1. Download the [Puffer data](https://puffer.stanford.edu/results/2019-01-26/) for video_sent and client_buffer.
+1. Download the [Puffer data](https://puffer.stanford.edu/results/2019-01-26/) for video_sent and client_buffer. The exact files we used are linked here: https://drive.google.com/file/d/1yTxNgZ5huNfH3peBRAkXiSDEptG5p7dH/view?usp=sharing
 
 2. Place the downloaded CSV files into the appropriate subdirectories inside `/puffer_tests`.
 
